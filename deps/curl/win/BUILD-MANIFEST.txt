@@ -1,0 +1,13 @@
+.clang 13.0.1
+.mingw-w64 10.0.0-2
+.binutils 2.37
+zlib 1.2.12
+brotli 1.0.9
+libgsasl 1.10.0
+libidn2 2.3.2
+nghttp2 1.47.0
+nghttp3 0.4.1
+openssl-quic 3.0.2
+ngtcp2 0.5.0
+libssh2 1.10.0
+curl 7.83.1

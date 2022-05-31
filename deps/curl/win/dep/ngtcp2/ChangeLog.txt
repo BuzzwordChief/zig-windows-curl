@@ -1,0 +1,215 @@
+commit 094b621cf1fae9e22e2c5883454c5786688c796c (HEAD, tag: v0.5.0, origin/main, origin/HEAD, main)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-16
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-16
+
+    Bump package and library versions
+
+commit 8696ff34019736ec55961689e9d8a46934ecba1b
+Merge: 603254b9 d7cfef0b
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-05-15
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-05-15
+
+    Merge pull request #441 from ngtcp2/map-fix
+    
+    Fix the bug that tablelen and table pointer become out of sync
+
+commit d7cfef0b90ff43c2053c8b436dc5a672b6710a54
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Fix the bug that tablelen and table pointer become out of sync
+
+commit 603254b961a7785f6c95c3f5d795fe8b1218af7c
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    TLSv1.3 is enabled by default
+
+commit bb11d5e84913138731254a3f66dfed69afce50f4
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Bump codeql actions
+
+commit 9eba0975629a138409efef0fb1300db427e0d003
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Bump docker actions
+
+commit e71dece642287e0d10490fc1be38a9e974057fb9
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Bump actions/checkout to v3
+
+commit d991ff4182ff5e3d8810cd769c55f1dfbba8c6da
+Merge: 75cec17a 92a65cce
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-05-15
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-05-15
+
+    Merge pull request #440 from ngtcp2/error-handling
+    
+    Error handling
+
+commit 92a65ccedc070e31111804c3d9653ebb36c1fbe3
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Enumerate all possible return values from ngtcp2_recv_crypto_data
+
+commit 130584488f3871f562ddcd7809d332da3fa41c4a
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Allow NGTCP2_ERR_NOMEM from ngtcp2_recv_crypto_data callback
+
+commit 7a7e80c79ec136b2c6b2a6a34857e086d8862f6e
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Update doc
+
+commit fe3dbf5a5ce29fa3c476c1c95d3ec1e374825b97
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Slightly simplified error handling for ngtcp2_conn_read_pkt
+
+commit 3dccfd970a6885aff58cb1e0c805667f915cde9d
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Propagate transport parameter errors to application
+
+commit 76f66402d0557e63e635869549c254e5aeaabb42
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-15
+
+    Deal with error from ngtcp2_conn_submit_crypto_data
+
+commit 75cec17ad1f4851cea8b375c3b626598ccfa3fc9
+Merge: e482396c 3c1752f6
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-05-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-05-07
+
+    Merge pull request #438 from ngtcp2/limit-pmtud-by-remote-max-udp-payload-size-tp
+    
+    Limit PMTUD probe by remote max_udp_payload_size transport parameter
+
+commit e482396c80af54fc7cd307f80c1dccd5954007cb
+Merge: 18edf1ed 1bb2958c
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-05-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-05-07
+
+    Merge pull request #437 from ngtcp2/add-ngtcp2_conn_get_path_max_udp_payload_size
+    
+    Add ngtcp2_conn_get_path_max_udp_payload_size
+
+commit 3c1752f6c6aac868752b9f90d52747df1c48c68f
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-07
+
+    Limit PMTUD probe by remote max_udp_payload_size transport parameter
+
+commit 1bb2958c3a35e40c8bc2f16a0c830917a3f080a0
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-07
+
+    Add ngtcp2_conn_get_path_max_udp_payload_size
+    
+    Add ngtcp2_conn_get_path_max_udp_payload_size to maximize GSO usage.
+
+commit 18edf1edf11aac11d3f37f9785a4cfb2506a7bc9
+Merge: e55d24ee b2439063
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-05-07
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-05-07
+
+    Merge pull request #436 from ngtcp2/bump-quictls
+    
+    Bump quictls
+
+commit b243906398b806081cfaaced2252bab8db6f69f7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-07
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-07
+
+    Bump quictls
+
+commit e55d24eeb169755ff0873cc146ccc06cf7660037
+Merge: 12a30c59 1ba4cf10
+Author:     Tatsuhiro Tsujikawa <404610+tatsuhiro-t@users.noreply.github.com>
+AuthorDate: 2022-04-29
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2022-04-29
+
+    Merge pull request #432 from ngtcp2/bbr2-filled-pipe-loss
+    
+    bbr2: Ignore congestion event before filling pipe
+
+commit 1ba4cf1085c47f77d5949338a310c8501a0d16e1
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-04-29
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-04-29
+
+    bbr2: Ignore congestion event before filling pipe
+    
+    If loss happens before pipe is filled, bbr2 congestion controller
+    prematurely declares filled pipe event which significantly
+    underestimates the available bandwidth.
+
+commit 12a30c596bed1c6890fcf401b0904848158276af
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-04-27
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-04-27
+
+    Update doc
+
+commit 2860aed4ee9aa9e6d08518ea756d4cafb8550910
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-04-25
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-04-25
+
+    Bump package version

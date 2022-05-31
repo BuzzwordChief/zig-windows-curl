@@ -1,0 +1,15 @@
+commit 09471d72228f61fce5cd3b21ec3a6497677bb006 (HEAD, tag: v0.4.1, origin/release-0.4, origin/HEAD, release-0.4)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-16
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-16
+
+    Bump package and library versions
+
+commit 28c501edf5f7646fd5d61bf47a88b5aa8ee7a47d
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2022-05-15
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2022-05-16
+
+    Fix the bug that tablelen and table pointer become out of sync
